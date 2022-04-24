@@ -45,6 +45,11 @@ button {
   border-radius: 25px;
 }
 
+button:hover {
+  background-color: #18bae2;
+  color: #eeeeec;
+}
+
 #profile-pic {
   transition: transform .7s ease-in-out;
   border-radius: 50%;
