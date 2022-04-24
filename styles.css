@@ -40,6 +40,11 @@ hr {
   height: 0px;
 }
 
+button {
+  border: none;
+  border-radius: 25px;
+}
+
 #profile-pic {
   transition: transform .7s ease-in-out;
   border-radius: 50%;
@@ -252,8 +257,13 @@ hr {
 
 #email {
   color: goldenrod;
+  margin-bottom: 0%;
 }
 
+#social-buttons {
+  margin-top: 0%;
+  margin-bottom: 5px;
+}
 
 
 
