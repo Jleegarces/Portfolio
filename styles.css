@@ -71,7 +71,7 @@ button:hover {
   font-weight: 800;
   color: #18bae2;
   font-family: 'Press Start 2P', cursive;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   
 }
 
@@ -253,6 +253,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   padding: 5px;
+  
 
 }
 
@@ -276,6 +277,87 @@ button:hover {
   width: 50%;
 }
 
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid #eeeeec;
+  border-radius: 25px;
+  padding: 20px;
+  background: #eeeeec;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+
+  
+  
+}
+
+#form h1 {
+  align-self: center;
+}
+
+#info-el {
+  height: 20px;
+  width: 450px;
+  margin-top: 10px;
+  
+  border-radius: 5px;
+  border: 2px solid #18bae2;
+  padding: 5px;
+  
+
+}
+
+#message-el {
+  border-radius: 5px;
+  border: 2px solid #18bae2;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding: 10px;
+  height: 300px;
+  width: 445px;
+  align-content: flex-start;
+  color: #8b8c8c;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+#submit-el {
+  background-color: #18bae2;
+  color: #eeeeec;
+  cursor: pointer;
+  height: 150px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 0 auto;
+  font-size: 18px;
+  
+}
+
+#submit-el:hover {
+  background-color: #0acffe;
+}
+
+#hide-btn {
+ visibility: hidden;
+ background-color: #18bae2;
+ color: #eeeeec;
+ cursor: pointer;
+ height: 35px;
+ width: 100px;
+ border-radius: 10px;
+ margin: 0 auto;
+ font-size: 18px;
+}
+
+#hide-btn:hover {
+  background-color: #0acffe;
+}
 
 
 
