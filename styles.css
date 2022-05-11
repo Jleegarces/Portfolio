@@ -17,7 +17,9 @@ a {
 }
 
 a:hover {
+  /* color: #fff; */
   color: #fff;
+  
 }
 
 p {
@@ -31,6 +33,7 @@ h1 {
   text-align: center;
   font-size: 2.2rem;
   color: #18bae2;
+  /* color: #F7FFFF; */
   font-weight: bold;
 } 
 
@@ -91,8 +94,14 @@ button:hover {
   
 }
 
+#nav a:hover {
+  color: #1e32df;
+}
+
 .name {
-  color: #18bae2;
+  /* color: #18bae2; */
+  /* color:#F7FFFF; */
+  color: #DBFFFF;
   text-align: center;
   font-weight: bolder;
   font-size: 3rem;
@@ -105,7 +114,8 @@ button:hover {
 
   text-align: center;
   font-size: 1.2rem;
-  color: #eeeeec;
+  /* color: #eeeeec; */
+  color: #DBFFFF;
   margin: 20px;
   
 }
@@ -179,7 +189,8 @@ button:hover {
 }
 
 #tech h1 {
-  color: #fff;
+  /* color: #fff; */
+  color: #DBFFFF;
   
 }
 
@@ -189,7 +200,8 @@ button:hover {
   font-size: 28px;
 }
 #tech p {
-  color: #18bae2;
+  /* color: #18bae2; */
+  color: #DBFFFF;
   text-decoration: none;
   text-align: center;
   font-size: 24px;
@@ -272,6 +284,12 @@ button:hover {
   margin-top: 0%;
   margin-bottom: 5px;
 }
+
+.fa:hover {
+  color: #0acffe;
+}
+
+
 
 .resume {
   width: 50%;
